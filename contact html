@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Get a Free Consultation | Willow Works</title>
+    <meta name="description" content="Ready to start your project? Contact Willow Works for a free consultation on AI-powered web development, app development, or AI consulting.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo"><a href="index.html">Willow Works</a></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1587560699334-cc4262401233?q=80&w=2070&auto=format&fit=crop');">
+            <div class="container hero-content fade-in">
+                <h1>Let's Start a Conversation.</h1>
+                <p>Whether you have a fully-scoped project or just an idea, we'd love to hear from you.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container fade-in" style="max-width: 800px;">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">What service are you interested in?</label>
+                        <select id="service" name="service" class="form-control">
+                            <option value="web">Web Development</option>
+                            <option value="app">App Development</option>
+                            <option value="ai">AI Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tell us about your project</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+                 <div class="chatbot-placeholder" style="margin-top: 3rem; text-align: center; border: 2px dashed var(--light-gray); padding: 1rem; border-radius: var(--border-radius);">
+                    <p>Future AI Chatbot Integration Point</p>
+                 </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>&copy; 2025 Willow Works. All Rights Reserved.</p>
+            <p class="footer-brand-note">Designed by Humans & AI</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
